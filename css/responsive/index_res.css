@@ -1,0 +1,107 @@
+@media(max-width: 1365px){
+	.wrapper_logocar li.item img {
+		width: 100%
+	}
+	.slider_main{
+		position: relative;
+		padding:35px 0 40px;
+	}
+	main{
+		margin-top: 115px;
+	}
+}
+@media (max-width: 1200px){
+	 main{
+	    margin-top: 82px;
+	}
+	.logo_car .wrapper_logocar li.item {
+	    padding: 10px 20px;
+	}
+	.wrapper_list_silide .slide .wrap_slide {
+    	padding: 7px 7px 0 7px;
+	}
+	.wrapper_list_silide .slide {
+    	width: 95%;
+	}
+	.wrapper_list_silide .owl-nav button.owl-prev {
+	    left: -18px;
+	}
+	.wrapper_list_silide .owl-nav button.owl-next {
+	    right: -18px;
+	}
+	.wrapper_list_silide .owl-nav button.owl-prev, 
+	.wrapper_list_silide .owl-nav button.owl-next {
+		background:#f5f5f5;
+	}
+}
+@media (max-width: 991px){
+	.wrapper_list_silide .show_slide {
+    	margin-bottom: 30px;
+	}
+	main{
+	    margin-top: 72px;
+	}
+	.logo_car .wrapper_logocar li.item {
+    	padding: 10px;
+	}
+	.wrapper_control_left .cate_list .view_more {
+		text-align: left!important;
+	}
+	.wrapper_control_left ul.list_control li a {
+		padding:5px 0!important;
+	}
+}
+
+@media (max-width: 767px){
+	.logo_car .wrapper_logocar li.item {
+    	padding: 15px;
+    	width: 100%;
+    	overflow:hidden;
+	}
+	.logo_car .wrapper_logocar {
+	    display: block;
+	    width: 100%;
+	    list-style: none;
+	    column-count: 3;
+	}
+	.wrapper_logocar li.item img {
+	    width: 70px;
+	    object-fit: cover;
+	}
+	.wrapper_list_silide .wrap_top .title h3 {
+		font-size: 14px;
+		min-width: 170px;
+		width: auto
+	}
+	.wrapper_list_silide .wrap_top .title h3::before {
+	    border-top: 30px solid #97c153;
+	    border-right: 30px solid transparent;
+	}
+	.item_slide .wrap_top .title {
+	    width: auto;
+	}
+	.item_slide .wrap_top .view_show {
+	    width: auto;
+	    text-align: right;
+	    margin-left: 0;
+	    margin: auto;
+	    margin-right: 0;
+	}
+}
+@media (max-width: 414px){
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
